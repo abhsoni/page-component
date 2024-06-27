@@ -32,3 +32,55 @@ body {
   border-radius: 6px;
   border-color: lightgray;
 }
+
+.header_title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.title {
+  font-weight: 600;
+}
+
+.emiCalcPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 60px;
+  gap: 20px;
+
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider {
+  width: 100%;
+}
+
+.tenure {
+  width: 15%;
+  height: 50px;
+  border-radius: 100px;
+  background: none;
+  background-color: rgb(226,226,226);
+  color: black;
+}
+
+.tenure_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.selected {
+  background-color: #009ad6;
+  color: black;
+}
+
+.inputBox {
+  color: black;
+  padding: 4px;
+}
